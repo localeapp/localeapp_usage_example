@@ -1,0 +1,6 @@
+en:
+  hello: "Hello!"
+  pages:
+    home:
+      heading: Heading
+      content: Content

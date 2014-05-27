@@ -1,2 +1,6 @@
 es:
-  hello: Ola
+  hello: "!Hola!"
+  pages:
+    home:
+      heading: Título
+      content: Contenido
