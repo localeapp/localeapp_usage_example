@@ -1,7 +1,10 @@
-if Rails.env.development?
+# To check if its defined? is not required if you use gem outside groups.
+# In current demonstration we use it only within development environment due to
+# that many users seems to do so.
+if defined?(Localeapp)
 
   require 'localeapp/rails'
-  
+
   Localeapp.configure do |config|
     #
     # Your API key, keep it secret.
