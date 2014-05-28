@@ -1,6 +1,6 @@
 es:
-  hello: "!Hola!"
+  hello: '!Hola!'
   pages:
     home:
-      heading: Título
       content: Contenido
+      heading: Título
