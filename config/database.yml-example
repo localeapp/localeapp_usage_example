@@ -1,0 +1,17 @@
+---
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  min_messages: WARNING
+
+production:
+  <<: *default
+  database: locale_production
+
+development:
+  <<: *default
+  database: locale_development
+
+test:
+  <<: *default
+  database: locale_test
